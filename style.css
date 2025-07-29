@@ -1,0 +1,69 @@
+body {
+  font-family: 'Peace Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff8f0;
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+  background: #ffdde0;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.product {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.toggle-btn {
+  margin-top: 0.5rem;
+  padding: 0.4rem 1rem;
+  background: #ff6978;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.upi-section {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.upi-image {
+  max-width: 220px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+#whatsapp-contact {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.whatsapp-link {
+  color: #25D366;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
